@@ -2,10 +2,6 @@
 
 This is a PyTorch implementation of the paper: [Learning Efficient Multi-Agent Cooperative Visual Exploration](https://arxiv.org/abs/2110.05734)
 
-Chao Yu*, Xinyi Yang*, Jiaxuan Gao*, Huazhong Yang, Yu Wang, Yi Wu
-
-Tsinghua University
-
 Project Website: https://sites.google.com/view/maans
 
 <img src='./files/2agent_global.gif' width=800>
