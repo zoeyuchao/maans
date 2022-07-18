@@ -15,12 +15,12 @@ Project Website: https://sites.google.com/view/maans
 Multi-Agent Active Neural SLAM (MAANS) consists of 6 components:
 - Neural SLAM module
 - Map Refiner
-- Spatial Coordination Planner
+- Multi-agnet Spatial Planner
 - Map Merger
 - Local Planner
 - Local Policy
 
-As shown in following figure, the Neural SLAM module processes RGB input image and sensor readings and produces map prediction as well as agent's pose estimation. The Map Refiner does transformations on predicted maps to align representation. The Spatial Coordination Planner outputs a long-term goal. Then, based on a merged gloal map produced by the Map Merger, the Local Planner plans a path to the long-term goal and generates a short-term sub-goal. Finally the Local Policy outputs a navigational action to reach the short-term sub-goal.
+As shown in following figure, the Neural SLAM module processes RGB input image and sensor readings and produces map prediction as well as agent's pose estimation. The Map Refiner does transformations on predicted maps to align representation. The Multi-agnet Spatial Planner outputs a long-term goal. Then, based on a merged gloal map produced by the Map Merger, the Local Planner plans a path to the long-term goal and generates a short-term sub-goal. Finally the Local Policy outputs a navigational action to reach the short-term sub-goal.
 
 ![overview](./files/overview.png)
 
