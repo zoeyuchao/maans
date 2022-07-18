@@ -87,7 +87,7 @@ wget --no-check-certificate 'https://drive.google.com/uc?export=download&id=1o5O
 
 ## Training
 
-You could start training with by running `sh train_habitat.sh` in directory [onpolicy/scripts](onpolicy/scripts). You can also set model parameters, model architecture and try out different input representations for SCP. 
+You could start training with by running `sh train_habitat.sh` in directory [onpolicy/scripts](onpolicy/scripts). 
 
 ## Evaluation
 
