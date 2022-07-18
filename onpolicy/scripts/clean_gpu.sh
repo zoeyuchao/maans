@@ -1,0 +1,1 @@
+ps -A -ostat,ppid,pid,cmd | grep -E "Habitat" | grep -v grep | awk '{print $3}' | xargs kill -9
